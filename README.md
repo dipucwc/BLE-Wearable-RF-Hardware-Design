@@ -581,7 +581,7 @@ Nordic BLE Direct Test Mode is planned for:
 - frequency-offset/drift characterisation;
 - unmodulated-carrier tests where supported by the selected DTM command set.
 
-### 7.4 Build examples — NCS v2.6.2
+### 7.4 Build examples- NCS v2.6.2
 
 From the repository root, the application can be built using the pinned NCS v2.6.2 board target:
 
@@ -641,7 +641,7 @@ The verification plan considers combinations of:
 
 ## 9. Laboratory procedure highlights
 
-### M-01 — free-space antenna S11
+### M-01- free-space antenna S11
 
 1. Isolate the antenna from the SoC using the RF link arrangement.
 2. Perform a 1-port VNA calibration at the cable/reference plane.
@@ -654,7 +654,7 @@ The verification plan considers combinations of:
    - antenna impedance at 2440 MHz.
 6. Tune radiator length/feed geometry if resonance is significantly displaced.
 
-### M-02 — on-body tuning
+### M-02- on-body tuning
 
 1. Repeat S11 measurement with the board in the representative wearable orientation.
 2. Read complex antenna impedance near 2.44 GHz.
@@ -674,7 +674,7 @@ The planned measurements include:
 - near-field spurious scan
 - top-channel band-edge behaviour
 
-### M-08 / M-09 — receiver characterisation
+### M-08 / M-09- receiver characterisation
 
 Receiver verification is based on DTM packet counting and PER:
 
@@ -834,8 +834,6 @@ The project uses the following documents as **engineering context and pre-compli
 - PCB-fabricator stack-up/controlled-impedance guidance
 - printed-MIFA application-note/reference geometries as starting points
 
-These references do **not** mean that the current design is certified to those standards.
-
 ---
 
 ## 16. Tools
@@ -952,8 +950,5 @@ See [`LICENSE`](LICENSE) for the repository license.
 
 ---
 
-## Final engineering note
-
-This project intentionally separates **predicted**, **simulated**, and **measured** performance. Values such as link range, matching improvement, feed impedance and harmonic level are clearly marked as analytical/design-phase results until physical Rev-A hardware is measured.
 
 The final technical value of the repository comes from closing that loop with real VNA, spectrum-analyzer, signal-generator and power measurements and documenting what changed between Rev-A and Rev-B.
