@@ -1,4 +1,4 @@
-# BLE Wearable Node — RF Design
+# BLE Wearable Node- RF Design
 
 **Status: Design phase.** Schematic, RF analysis, PCB stack-up and test plan are complete. Board layout, fabrication and bench measurement are in progress. The measured-results table below is intentionally empty and will only be filled with real lab data.
 
